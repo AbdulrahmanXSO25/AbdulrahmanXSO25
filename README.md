@@ -1,169 +1,155 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbdulrahmanXSO25/AbdulrahmanXSO25/main/assets/header-dark.svg">
-    <img alt="terminal header" src="https://raw.githubusercontent.com/AbdulrahmanXSO25/AbdulrahmanXSO25/main/assets/header-light.svg">
+    <img alt="terminal session" src="https://raw.githubusercontent.com/AbdulrahmanXSO25/AbdulrahmanXSO25/main/assets/header-light.svg" width="100%">
   </picture>
 </p>
 
 <br>
 
-I write code for a living. I study systems because the
-habit stuck, and I'm glad it did.
+<p align="center">
+  <b>backend engineer</b> &nbsp;·&nbsp; <b>cairo, egypt</b><br>
+  <code>.net</code> <code>c</code> <code>sql</code> <code>linux</code>
+</p>
 
-Backend engineer from Cairo. My days are .NET and C#,
-SQL and API design — the work that teaches you reliability
-is harder than cleverness, and worth more in the end.
-People use what I build. They don't see it, which is how
-I know it's working.
+<br>
 
-But the work that shapes me happens at night. That's when
-I drop down through the stack — past the framework, past
-the runtime, past the system call boundary, into the
-kernel, into the memory allocator, into the raw dialogue
-between software and silicon.
+<table>
+<tr>
 
-I don't do this for credit. I do it because each layer
-you master makes every layer above it clearer, and
-clarity is the only advantage worth having.
+<td width="50%" valign="top">
+<p>
+i write code for a living and study systems because i genuinely can't stop. backend engineer from cairo. my days are .NET and C#, sql schemas and api design. the kind of work where reliability matters more than being clever, and people depend on what you build.
+</p>
+</td>
 
----
+<td width="50%" valign="top">
+<p>
+the real learning starts after midnight. that is when i drop past the framework, past the runtime, through the syscall gate, into the kernel. the allocator. the bare handshake between software and hardware. not because it looks cool on a resume. because understanding how things work all the way down makes everything above it easier.
+</p>
+</td>
 
-### now
+</tr>
+</table>
 
-I'm building a UNIX-like operating system. Bootloader to
-userspace, one syscall at a time. Paging. Context switching.
-A VFS that abstracts filesystems. A preemptive scheduler.
-Interrupt handlers. IDE drivers. Signals and pipes and the
-messy reality of getting a shell to run `cat file | grep
-hello` without hanging. Not because the world needs another
-kernel — but because there are things you can only learn
-by building one. When your page fault handler is the only
-thing between a working system and a triple fault, you
-learn memory management in a way no textbook can teach.
-
-I'm reading PostgreSQL source like a novel — cover to
-cover, following the thread through the C. The buffer
-pool clock sweep. MVCC snapshots. The lock manager. WAL
-and ARIES recovery. I trace every concept from the paper
-through the implementation, because theory without code
-is incomplete and code without theory is blind.
-
-I write small systems that teach big lessons. A malloc
-implementation. A key-value store over io_uring. A SQL
-parser. A B-tree. None of them will replace what exists.
-All of them make me better at understanding what exists.
-
-I read Linux source code in chronological order. From
-0.95 — when a kernel fit on a floppy disk and the word
-"Linux" was still Linus's hobby — through every major
-version to 6.x. The history of systems software is
-written in C, and I'm giving it the attention it earns.
+<br>
 
 ---
 
-### the work
+<h3 align="center">now ⚡</h3>
 
-I build backend systems professionally. Government
-platforms. Educational software. Business applications.
-The kind of projects where downtime means consequences
-and reliability is the feature that matters most.
-Good architecture isn't aesthetic preference — it's
-survival. I've learned more from production incidents
-than from any book.
+<br>
+
+<table>
+<tr>
+
+<td width="33%" valign="top" align="left">
+<b>🏗️ building a kernel</b><br><br>
+a unix-like OS from the bootloader up. paging, context switching, vfs, a preemptive scheduler, ide drivers, signals, pipes. the messy art of making a shell work. not because the world needs another kernel. because building one teaches you things no book can.
+</td>
+
+<td width="33%" valign="top" align="left">
+<b>📖 reading postgres internals</b><br><br>
+going through the source cover to cover. the buffer pool clock sweep. mvcc. the lock manager. wal and aries recovery. tracing every concept from the paper through the C code. theory without code is incomplete. code without theory is blind.
+</td>
+
+<td width="33%" valign="top" align="left">
+<b>🔨 writing small systems</b><br><br>
+a malloc. a kv store over io_uring. a sql parser. a b-tree. nothing production grade. everything educational. each one teaches something the last one did not. also reading linux from 0.95 to 6.x because the history of systems software is written in C.
+</td>
+
+</tr>
+</table>
+
+<br>
+
+---
+
+<br>
 
 <details>
-<summary><b>tools of the trade</b> (current and proven)</summary>
+<summary><h3 style="display: inline;">🛠️ the work</h3></summary>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white&labelColor=1a1a2e">
-  <img alt="C#" src="https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white&labelColor=1a1a2e">
-  <img alt=".NET" src="https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white&labelColor=1a1a2e">
-  <img alt="SQL Server" src="https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=1a1a2e">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=1a1a2e">
-  <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1a2e">
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white&labelColor=1a1a2e">
-  <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=1a1a2e">
-  <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=1a1a2e">
-  <img alt="Linux" src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=1a1a2e">
-  <img alt="Azure" src="https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white&labelColor=1a1a2e">
-  <img alt="AWS" src="https://img.shields.io/badge/-AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white">
-</picture>
+<blockquote>
+backend systems for government platforms, educational software, business applications. the kind of projects where a crash means a phone call and downtime has real consequences. good architecture is survival, not preference.
+</blockquote>
 
 <br>
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white&labelColor=161b22"><img alt="C#" src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white&labelColor=161b22"><img alt=".NET" src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white&labelColor=161b22"><img alt="ASP.NET" src="https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white&labelColor=161b22"><img alt="SQL Server" src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=161b22"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=161b22"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=161b22"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white&labelColor=161b22"><img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=161b22"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=161b22"><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white&labelColor=161b22"><img alt="Azure" src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white&labelColor=161b22"><img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white"></picture>
+</p>
+
 <br>
 
-i learn languages when the problem demands them.
-the fundamentals — data structures, systems thinking,
-architecture — travel with me everywhere.
+<blockquote>
+<sub>i pick up languages when the problem needs them. the fundamentals (data structures, systems thinking, architecture) stick with me everywhere i go.</sub>
+</blockquote>
 
 </details>
 
----
-
-### things I've come to believe
-
-The stack between your text editor and the disk platter
-is hundreds of abstraction layers deep. Most engineers
-live in the top ten. The best ones I know keep descending.
-
-Understanding the memory allocator makes you a better C
-programmer — you stop treating `malloc` like a ritual and
-start seeing it as a conversation with the kernel.
-Understanding the scheduler makes you a better systems
-designer — you think about concurrency as physics, not
-a feature flag. Understanding the buffer pool makes you
-a better engineer in any language — because every system
-that manages data faces the same tradeoffs.
-
-There are no shortcuts to this knowledge. No course, no
-certification, no prompt that can substitute for staring
-at `kernel/sched/core.c` until the patterns emerge. You
-have to sit with the material until it yields.
-
-That's not a burden. It's the whole point. The work
-itself is the teacher, and the tuition is curiosity
-plus patience.
-
-I'm not in a hurry. The stack is deep. I have decades.
+<br>
 
 ---
+
+<h3 align="center">things i know for sure</h3>
+
+<br>
+
+<blockquote>
+the stack between your keyboard and the disk is hundreds of layers deep. most people stay near the top. the engineers i respect most keep climbing down.
+</blockquote>
+
+understanding the allocator makes you a better C programmer. understanding the scheduler makes you a better systems designer. understanding the buffer pool makes you better in any language. every layer you learn makes the ones above it clearer.
+
+there is no shortcut. no course, no bootcamp, no prompt will give you what staring at <code>kernel/sched/core.c</code> until the pattern clicks gives you. you sit with it until it makes sense.
+
+that is not a punishment. that is the whole deal. the work teaches you if you let it.
+
+i am not in a hurry. the stack is deep. i have years ahead of me.
+
+<br>
+
+---
+
+<br>
 
 <p align="center">
-  <a href="https://xso25.vercel.app/"><b>website</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/abdulrahmanxso25/"><b>linkedin</b></a>
-  &nbsp;·&nbsp;
-  abdulrahmanxso25@outlook.com
+  <a href="https://xso25.vercel.app/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/website-58a6ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=161b22">
+      <img alt="website" src="https://img.shields.io/badge/website-0969da?style=for-the-badge&logo=vercel&logoColor=white">
+    </picture>
+  </a>
+  <a href="https://linkedin.com/in/abdulrahmanxso25/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/linkedin-58a6ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22">
+      <img alt="linkedin" src="https://img.shields.io/badge/linkedin-0969da?style=for-the-badge&logo=linkedin&logoColor=white">
+    </picture>
+  </a>
+  <a href="mailto:abdulrahmanxso25@outlook.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/email-58a6ff?style=for-the-badge&logo=microsoftoutlook&logoColor=white&labelColor=161b22">
+      <img alt="email" src="https://img.shields.io/badge/email-0969da?style=for-the-badge&logo=microsoftoutlook&logoColor=white">
+    </picture>
+  </a>
+  <a href="https://github.com/AbdulrahmanXSO25">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/github-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22">
+      <img alt="github" src="https://img.shields.io/badge/github-0969da?style=for-the-badge&logo=github&logoColor=white">
+    </picture>
+  </a>
 </p>
